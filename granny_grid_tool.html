@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>グラニースクエア配置ツール</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>グラニースクエア配置ツール</h1>
+
+  <div id="picker">
+    <p>配置できる画像</p>
+    <div id="image-list">
+      <img src="images/sample1.jpg" draggable="true" class="draggable" />
+      <img src="images/sample2.jpg" draggable="true" class="draggable" />
+      <img src="images/sample3.jpg" draggable="true" class="draggable" />
+    </div>
+  </div>
+
+  <div id="grid">
+    <!-- 3x3 マス -->
+    <div class="cell" data-index="0"></div>
+    <div class="cell" data-index="1"></div>
+    <div class="cell" data-index="2"></div>
+    <div class="cell" data-index="3"></div>
+    <div class="cell" data-index="4"></div>
+    <div class="cell" data-index="5"></div>
+    <div class="cell" data-index="6"></div>
+    <div class="cell" data-index="7"></div>
+    <div class="cell" data-index="8"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
